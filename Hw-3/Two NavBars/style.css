@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 1000px;
+  background-color: #dfe6e9;
+}
+
+.stickyNavBar {
+  width: 100%;
+  height: 80px;
+  background-color: #34495e;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stickyNavbar__logo {
+  margin-left: 10%;
+}
+
+.stickyNavbar__logo-title {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.stickyNavbar__links {
+  display: flex;
+  margin-right: 5%;
+}
+
+.stickyNavbar__links-buttons {
+  margin: 0 10px;
+}
+
+.stickyNavbar__contactButton {
+  padding: 5px 30px;
+  margin-right: 10%;
+  background-color: #3498db;
+  border-radius: 20%/70%;
+}

@@ -1,0 +1,220 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+h4 {
+  margin: 0;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  background-color: #f1f1f1;
+  padding: 32px 16px;
+}
+
+.blogName {
+  font-size: 36px;
+  color: black;
+  margin: 10px 0;
+}
+
+.welcomeMessage {
+  font-size: 15px;
+  margin: 15px 0;
+  font-weight: 100;
+}
+
+.authorName {
+  background-color: black;
+  color: white;
+  padding: 2px 8px 3px 8px;
+}
+
+/* Main Part */
+
+.date {
+  opacity: 0.6;
+}
+
+/* All div's that are children to <main> */
+.container {
+  box-shadow: 0px 2px 20px -2px rgba(0, 0, 0, 0.46);
+  background-color: white;
+  margin: 0 0 42px 0;
+}
+
+.main {
+  background-color: #f1f1f1;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mainInfo {
+  flex: 1;
+  min-width: 700px;
+  margin: 16px 33px 0 4.5%;
+}
+
+.titleHeadingName {
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 6px 0 5px 15px;
+}
+
+.titleHeadingDescription {
+  font-size: 18px;
+  margin: 10px 0 10px 15px;
+  font-weight: lighter;
+}
+
+.titleHeadingText {
+  margin: 25px 10px 15px 16px;
+}
+
+.buttonReadMore {
+  margin: 14px 5px 5px 15px;
+  text-transform: uppercase;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 16px 24px;
+  font-weight: bolder;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.buttonReadMore:hover, .popularPostsItem:hover {
+  background-color: #ccc;
+}
+
+/* Div with button and comment elements */
+.commentPositioning {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+/* Applies to all comments elements */
+.comments {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 12px 35px;
+  font-weight: bolder;
+}
+
+.firstComment {
+  background-color: black;
+  color: white;
+  padding: 2px 9px;
+}
+
+.secondComment {
+  background-color: black;
+  color: white;
+  border-radius: 140px;
+  padding: 4px 8px;
+}
+
+/* Right */
+.additionalInfo {
+  width: 29%;
+  margin: 16px 4.5% 0 0;
+}
+
+.titleContainer {
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+}
+
+.popularPostsTitle,
+.tagsTitle {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+/* First container from right */
+.myName {
+  padding-bottom: 8px;
+}
+
+.myNameTitle {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 6px 0 5px 15px;
+}
+
+.myNameText {
+  margin: 14px 0 5px 15px;
+}
+
+/* Second container from right */
+.popularPostsItem {
+  display: flex;
+}
+
+.popularPostsImg {
+  width: 50px;
+  margin: 0 16px 0 0;
+}
+
+.popularPostsItem {
+  transition: 0.2s;
+  padding: 16px;
+}
+
+.popularPostsName {
+  font-size: 18px;
+}
+
+.popularPostsImg {
+  height: 50px;
+}
+
+.popularPostsDescription, .popularPostsName {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+/* Third container from right */
+.tagList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px 0;
+  padding: 0.15px 16px;
+}
+
+.tagsItem {
+  margin: 0 5px;
+  background-color: #f1f1f1;
+  color: black;
+  margin: 0 2px 16px;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+.highlightedTagItem {
+  background-color: black;
+  color: white;
+  padding: 2px 9px;
+  font-size: 14px;
+}

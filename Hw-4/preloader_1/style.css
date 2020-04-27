@@ -1,0 +1,80 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preloader {
+  width: 220px;
+  height: 220px;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+  animation-name: changeOpacity;
+  animation-duration: 710ms;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  opacity: 0.1;
+  position: relative;
+}
+
+.first {
+  left: 110px;
+  transform: translate(-50%);
+}
+
+.second {
+  animation-delay: 100ms;
+  left: 145px;
+  top: -10px;
+}
+.third {
+  animation-delay: 200ms;
+  left: 175px;
+}
+.fourth {
+  animation-delay: 300ms;
+  left: 145px;
+  top: 20px;
+}
+.fifth {
+  animation-delay: 400ms;
+  top: 10px;
+  left: 110px;
+  transform: translate(-50%);
+}
+.sixth {
+  animation-delay: 500ms;
+  top: -70px;
+  left: 30px;
+}
+.seventh {
+  animation-delay: 600ms;
+  top: -180px;
+}
+.eighth {
+  animation-delay: 700ms;
+  top: -280px;
+  left: 30px;
+}
+
+@keyframes changeOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}

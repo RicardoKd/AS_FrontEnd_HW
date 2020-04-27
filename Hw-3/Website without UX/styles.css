@@ -1,0 +1,134 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("img/hero-bg.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.logo {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 900;
+  position: relative;
+  position: absolute;
+  top: 4%;
+  left: 3%;
+}
+
+.logo-green {
+  color: green;
+}
+
+.welcomeMessage {
+  text-transform: uppercase;
+  opacity: 0.5;
+  position: absolute;
+  font-size: 13px;
+  top: 39%;
+  left: 15%;
+}
+
+.titlePanel {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.titlePanel-title {
+  text-transform: capitalize;
+  margin: 20px 0;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.buttonPanel {
+  position: absolute;
+  top: 70%;
+  left: 15%;
+}
+
+.buttonPanel-button {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid white;
+  padding: 15px 25px;
+  margin: 0 8px;
+}
+
+.burgerMenu {
+  width: 80px;
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.burgerMenu-green {
+  color: green;
+}
+
+.socialMediaLinksPanel {
+  height: 200px;
+  position: absolute;
+  top: 40%;
+  right: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.scrollDownPanel {
+  width: 160px;
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.scrollDown-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.scrollDownPanel-greenLine {
+  background-color: green;
+  width: 3px;
+  height: 80px;
+}
+
+/* Arrow scroll down */
+.fa-chevron-down {
+  color: green;
+}
