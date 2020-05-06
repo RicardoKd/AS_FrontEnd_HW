@@ -3,10 +3,10 @@ class userCard extends HTMLElement {
     this._userContainer = document.createElement("div");
     this._userContainer.classList.add("userContainer");
 
-    this._photo = document.createElement('img');
+    this._photo = document.createElement("img");
     this._photo.classList.add("userImage");
 
-    this._name = document.createElement('p');
+    this._name = document.createElement("p");
     this._name.classList.add("userName");
 
     this.appendChild(this._userContainer);
@@ -17,7 +17,7 @@ class userCard extends HTMLElement {
   }
 
   static get observedAttributes() {
-    return ['photo', 'name'];
+    return ["photo", "name"];
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
@@ -29,14 +29,14 @@ class userCard extends HTMLElement {
 
   update() {
     if (this._properties) {
-      if (this._properties['photo'] && this._photo) {
-        this._photo.src = this._properties['photo'];
+      if (this._properties["photo"] && this._photo) {
+        this._photo.src = this._properties["photo"];
       }
-      if (this._properties['name'] && this._name) {
-        this._name.textContent = this._properties['name'];
+      if (this._properties["name"] && this._name) {
+        this._name.textContent = this._properties["name"];
       }
     }
   }
 }
 
-customElements.define('user-card', userCard);
+customElements.define("user-card", userCard);
