@@ -1,7 +1,5 @@
 const list = { value: 1, next: null };
-
 let startNum = 1;
-
 let lastObj = list;
 
 const recursion = (untilNum) => {

@@ -52,7 +52,7 @@
     ],
     "no-tabs": 0,
     "no-console": [
-      1
+      0
     ],
     "curly": [
       2,
