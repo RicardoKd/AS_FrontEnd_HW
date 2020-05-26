@@ -6,7 +6,7 @@ const recursion = (untilNum) => {
   if (startNum < untilNum) {
     lastObj.next = {};
     lastObj = lastObj.next;
-    startNum++;
+    startNum += startNum;
     lastObj.value = startNum;
     lastObj.next = null;
     recursion(untilNum);

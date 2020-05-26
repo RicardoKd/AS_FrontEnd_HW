@@ -1,29 +1,14 @@
-const plus = (a, b) => {
-  const result = a + b;
-  return result;
-};
+const pls = (a, b) => a + b;
+const mns = (a, b) => a - b;
+const mlt = (a, b) => a * b;
+const dvd = (a, b) => a / b;
 
-const minus = (a, b) => {
-  const result = a - b;
-  return result;
-};
-
-const multiply = (a, b) => {
-  const result = a * b;
-  return result;
-};
-
-const devide = (a, b) => {
-  const result = a / b;
-  return result;
-};
-
-const calculator = (method, firstVal, secondVal) => {
+const calc = (method, firstVal, secondVal) => {
   const res = method(firstVal, secondVal);
   console.log(`${method.name} ${res}`);
 };
 
-calculator(plus, 10, 2);
-calculator(minus, 10, 2);
-calculator(multiply, 10, 2);
-calculator(devide, 10, 2);
+calc(pls, 10, 2);
+calc(mns, 10, 2);
+calc(mlt, 10, 2);
+calc(dvd, 10, 2);

@@ -4,7 +4,9 @@ const arr = [1, 2, 3, 4, 5, { hello: "world" }];
 arr.find((val, index) => {
   if (typeof val === "object") {
     arr.splice(index, 1);
+    return true;
   }
+  return false;
 });
 console.log(arr);
 
@@ -16,7 +18,9 @@ console.log(str);
 arr.find((val, index) => {
   if (val === 4) {
     arr[index] = 10;
+    return true;
   }
+  return false;
 });
 console.log(arr);
 const reverseArr = arr.reverse();

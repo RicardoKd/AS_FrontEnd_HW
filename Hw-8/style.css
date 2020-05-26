@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  color: white;
+  background-color: #34495e;
+  width: 520px;
+}
+
+.ulTitle {
+  margin-left: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
