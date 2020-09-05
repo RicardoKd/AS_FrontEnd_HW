@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/RicardoKd/AS_Fronend_Homework/issues"
   },
-  "homepage": "https://github.com/RicardoKd/AS_Fronend_Homework#readme"
+  "homepage": "https://github.com/RicardoKd/AS_Fronend_Homework#readme",
+  "dependencies": {}
 }
